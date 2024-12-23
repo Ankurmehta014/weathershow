@@ -1,0 +1,61 @@
+.upcoming_hrs {
+  background-color: #2c2c2c;
+  border-radius: 20px;
+  height: 25%;
+  width: 68vw;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: hidden;
+}
+
+.upcoming_hrs h2 {
+  margin-bottom: 15px;
+}
+.forecast-container {
+  background-color: #2c2c2c;
+  padding: 2rem;
+  padding-top: 0rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  width: 88%;
+  height: 25%;
+}
+.forecast-heading {
+  font-size: 1.2rem;
+  text-align: center;
+
+  color: #e0e0e0;
+}
+.forecast-controls {
+  display: flex;
+  justify-content: space-between;
+}
+
+.time-temp-values {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem 0;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #444;
+}
+.time-temp-block {
+  text-align: center;
+  width: 12%;
+}
+.time-temp-block .time-label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #e0e0e0;
+  margin-bottom: 0.1rem;
+}
+.time-temp-block .weather-icon {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+.time-temp-block .temp-label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #5cb5c9;
+}

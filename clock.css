@@ -1,0 +1,50 @@
+.clock-container {
+  height: 50%;
+  border-radius: 10%;
+}
+.clock-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 2%;
+  margin-bottom: 10%;
+}
+.arrow {
+  cursor: pointer;
+  font-size: 24px;
+  user-select: none;
+  margin: 10px;
+}
+.clock {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: url("clock.png") no-repeat center center;
+  background-size: contain;
+}
+.hand {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  background: url("hand.png") no-repeat center center;
+  background-size: contain;
+  transform-origin: center bottom;
+  transform: rotate(0deg);
+  top: 64px;
+  left: 57px;
+}
+.time-display {
+  margin: 10px;
+  margin-left: 2px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.arrow img {
+  width: 24px;
+  height: 24px;
+}
+.real-time {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
